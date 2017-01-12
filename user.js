@@ -1,7 +1,7 @@
 var user = {
   name: 'Eric',
   location: 'WestJordan',
-  occupations: ['student', 'developer'],
+  occupations: ['student', 'developer', 'husband'],
   hobbies: [
     {
       name: 'GeoCaching',
@@ -35,17 +35,17 @@ var user = {
   ],
   restaurants: [
     {
-      name: 'CafeRio',
+      name: 'cafe rio',
       type: 'Mexican',
       rating: 9.2
     },
     {
-      name: 'OliveGarden',
+      name: 'olive garden',
       type: 'Italian',
       rating: 9.4
     },
     {
-      name: 'LaFrontera',
+      name: 'la frontera',
       type: 'Mexican',
       rating: 9.3
     }

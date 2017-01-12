@@ -1,7 +1,7 @@
 module.exports = {
 
     addHeaders: function(req, res, next) {
-        res.status(200).json({
+        res.status(200).set({
             'Content-Type': 'application/json',
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Methods': 'OPTIONS, GET, POST, PUT',

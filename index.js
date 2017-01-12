@@ -17,6 +17,7 @@ app.get('/hobbies/:type', mainCtrl.getHobbyType);
 app.get('/family', mainCtrl.getFamily);
 app.get('/family/:gender', mainCtrl.getFamilyGender);
 app.get('/restaurants', mainCtrl.getRestaurants);
+app.get('/restaurants/:name', mainCtrl.getRestaurantsName);
 
 
 
