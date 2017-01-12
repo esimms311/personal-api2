@@ -25,7 +25,7 @@ getOccupations: function(req, res, next) {
       }
       res.status(200).json({
         occupations: user.occupations
-      });
+      })
     },
 
 getOccupationsLatest: function(req, res, next) {
